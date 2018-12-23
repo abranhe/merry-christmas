@@ -1,0 +1,52 @@
+{
+  "name": "marry-christmas",
+  "version": "1.0.0",
+  "description": "Get amazing Christmas greetings messages 🎄",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abranhe/marry-christmas.git"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "greetings.json"
+  ],
+  "keywords": [
+    "christmas",
+    "messages",
+    "marry-christmas",
+    "december",
+    "word",
+    "words",
+    "list",
+    "rand",
+    "cli",
+    "cli-app"
+  ],
+  "author": {
+    "name": "Carlos Abraham",
+    "email": "abraham@abranhe.com",
+    "web": "abranhe.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abranhe/marry-christmas/issues"
+  },
+  "homepage": "https://projects.abranhe.com/marry-christmas",
+  "devDependencies": {
+    "ava": "^1.0.1"
+  },
+  "dependencies": {
+    "consecutively-unique-array": "^1.0.0",
+    "gradient-string": "^1.2.0",
+    "meow": "^5.0.0"
+  }
+}
