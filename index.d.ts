@@ -6,7 +6,7 @@ declare const merryChristmas: {
 
 	@example
 	```
-	import merryChristmas = require('cat-names');
+	import merryChristmas = require('merry-christmas');
 
 	merryChristmas.all;
 	//=> ['Let’s celebrate this blissful New Year. happy Christmas.', 'During this..', …]
@@ -19,7 +19,7 @@ declare const merryChristmas: {
 
 	@example
 	```
-	import merryChristmas = require('cat-names');
+	import merryChristmas = require('merry-christmas');
 
 	merryChristmas.random();
 	//=> 'Hope your Christmas is an ideal measure of fun and laughter!'
