@@ -1,6 +1,6 @@
 {
   "name": "merry-christmas",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get amazing Christmas greetings messages 🎄",
   "scripts": {
     "test": "xo && ava && tsd"
@@ -45,12 +45,12 @@
   },
   "devDependencies": {
     "ava": "*",
-		"tsd": "*",
-		"xo": "*"
-	},
-	"tsd": {
-		"compilerOptions": {
-			"resolveJsonModule": true
-		}
-	}
+    "tsd": "*",
+    "xo": "*"
+  },
+  "tsd": {
+    "compilerOptions": {
+      "resolveJsonModule": true
+    }
+  }
 }
