@@ -1,28 +1,27 @@
 {
-  "name": "marry-christmas",
-  "version": "1.0.0",
+  "name": "merry-christmas",
+  "version": "0.0.0",
   "description": "Get amazing Christmas greetings messages 🎄",
-  "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava && tsd"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abranhe/marry-christmas.git"
-  },
-  "bin": "cli.js",
+  "repository": "abranhe/merry-christmas",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=8"
   },
   "files": [
     "index.js",
-    "cli.js",
+    "index.d.ts",
     "greetings.json"
   ],
   "keywords": [
     "christmas",
     "messages",
-    "marry-christmas",
+    "array",
+    "data",
+    "geedings",
+    "json",
+    "merry-christmas",
     "december",
     "word",
     "words",
@@ -38,15 +37,20 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abranhe/marry-christmas/issues"
+    "url": "https://github.com/abranhe/merry-christmas/issues"
   },
-  "homepage": "https://projects.abranhe.com/marry-christmas",
-  "devDependencies": {
-    "ava": "^1.0.1"
-  },
+  "homepage": "https://p.abranhe.com/merry-christmas",
   "dependencies": {
-    "consecutively-unique-array": "^1.0.0",
-    "gradient-string": "^1.2.0",
-    "meow": "^5.0.0"
-  }
+    "consecutively-unique-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+		"tsd": "*",
+		"xo": "*"
+	},
+	"tsd": {
+		"compilerOptions": {
+			"resolveJsonModule": true
+		}
+	}
 }
